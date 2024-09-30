@@ -15,7 +15,7 @@ class SpeechFilterController(
 ) {
 
     @PostMapping
-    fun checkSafeSpeech(@RequestBody @Valid input: Speech): String {
+    fun checkSafeSpeech(@RequestBody @Valid input: Speech): Boolean? {
         return openAIClient.checkProfanity(input)
     }
 }

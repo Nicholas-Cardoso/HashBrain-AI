@@ -1,6 +1,13 @@
+server:
+  port: 8081
 spring:
   application:
     name: HashBrainAI
-azure:
-  key:
-    url:
+openai:
+  endpoint:
+  model:
+  api:
+    key:
+#azure:
+#  key:
+#    url:
