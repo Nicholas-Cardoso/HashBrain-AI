@@ -3,11 +3,6 @@ server:
 spring:
   application:
     name: HashBrainAI
-openai:
-  endpoint:
-  model:
-  api:
-    key:
-#azure:
-#  key:
-#    url:
+azure:
+  key:
+    url:
